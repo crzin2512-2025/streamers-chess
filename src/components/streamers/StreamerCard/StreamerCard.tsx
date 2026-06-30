@@ -29,8 +29,8 @@ export function StreamerCard({ streamer }: StreamerCardProps) {
             className="streamer-card__avatar"
             src={streamer.avatar}
             alt={`Avatar de ${streamer.username}`}
-            width={56}
-            height={56}
+            width={72}
+            height={72}
             onError={() => setAvatarError(true)}
           />
         )}
